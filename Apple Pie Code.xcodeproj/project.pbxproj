@@ -12,6 +12,9 @@
 		0605DBBC270D8F5700EFBAA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0605DBBB270D8F5700EFBAA4 /* Assets.xcassets */; };
 		0605DBC7270D930100EFBAA4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0605DBC6270D930100EFBAA4 /* Default-568h@2x.png */; };
 		0605DBC9270DCE5D00EFBAA4 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0605DBC8270DCE5D00EFBAA4 /* Game.swift */; };
+		0605DBCE270DD1EC00EFBAA4 /* Screenshot01.png in Resources */ = {isa = PBXBuildFile; fileRef = 0605DBCB270DD1EB00EFBAA4 /* Screenshot01.png */; };
+		0605DBCF270DD1EC00EFBAA4 /* Screenshot02.png in Resources */ = {isa = PBXBuildFile; fileRef = 0605DBCC270DD1EC00EFBAA4 /* Screenshot02.png */; };
+		0605DBD0270DD1EC00EFBAA4 /* Screenshot03.png in Resources */ = {isa = PBXBuildFile; fileRef = 0605DBCD270DD1EC00EFBAA4 /* Screenshot03.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		0605DBC0270D8F5700EFBAA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0605DBC6270D930100EFBAA4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		0605DBC8270DCE5D00EFBAA4 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		0605DBCB270DD1EB00EFBAA4 /* Screenshot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot01.png; sourceTree = "<group>"; };
+		0605DBCC270DD1EC00EFBAA4 /* Screenshot02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot02.png; sourceTree = "<group>"; };
+		0605DBCD270DD1EC00EFBAA4 /* Screenshot03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot03.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 		0605DBB1270D8F5400EFBAA4 /* Apple Pie Code */ = {
 			isa = PBXGroup;
 			children = (
+				0605DBCA270DD14600EFBAA4 /* Screenshots */,
 				0605DBB2270D8F5400EFBAA4 /* AppDelegate.swift */,
 				0605DBBB270D8F5700EFBAA4 /* Assets.xcassets */,
 				0605DBC6270D930100EFBAA4 /* Default-568h@2x.png */,
@@ -62,6 +69,16 @@
 				0605DBB6270D8F5400EFBAA4 /* ViewController.swift */,
 			);
 			path = "Apple Pie Code";
+			sourceTree = "<group>";
+		};
+		0605DBCA270DD14600EFBAA4 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				0605DBCB270DD1EB00EFBAA4 /* Screenshot01.png */,
+				0605DBCC270DD1EC00EFBAA4 /* Screenshot02.png */,
+				0605DBCD270DD1EC00EFBAA4 /* Screenshot03.png */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +141,9 @@
 			files = (
 				0605DBBC270D8F5700EFBAA4 /* Assets.xcassets in Resources */,
 				0605DBC7270D930100EFBAA4 /* Default-568h@2x.png in Resources */,
+				0605DBCE270DD1EC00EFBAA4 /* Screenshot01.png in Resources */,
+				0605DBD0270DD1EC00EFBAA4 /* Screenshot03.png in Resources */,
+				0605DBCF270DD1EC00EFBAA4 /* Screenshot02.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
